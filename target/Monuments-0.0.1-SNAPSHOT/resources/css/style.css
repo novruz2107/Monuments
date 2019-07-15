@@ -1,0 +1,62 @@
+html, body{
+	margin-left:0px; margin-right:0px; 
+	padding:0px; 
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+table {   
+	border-collapse:collapse;
+	border-bottom:1px solid gray;
+	border-left:1px solid gray;
+	border-right:1px solid gray;
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+	width:100%;
+}
+ 
+th {
+	border-bottom:1px solid white;
+	background:none repeat scroll 0 0 #515151;
+	padding:1px;
+	color: #ffffff;
+	height: 25px;
+	font-size: 12px;
+	width: 40vw;
+}
+
+thead, tbody { display: table; }
+tbody {   
+	overflow:auto;
+	overflow-x:hidden;
+	display:table;
+	width:100%;
+}
+
+td{
+	border-right:1px solid gray;
+}
+
+tbody tr {
+	display:table;
+	width:100%;
+	table-layout:fixed;
+}
+
+tr {
+	border-top:1px solid gray;
+	text-align:left;	
+	height: 25px;
+	font-size: 12px;
+	width: 40vw;
+}
+ 
+tr:nth-child(even) {background: #FFFFFF}
+tr:nth-child(odd) {background: #BBBBBB}	
+ 
+#wrapper {width: 100%; margin-top: 0px; }
+#header {width: 70%; margin-bottom: 10px; padding:0px 0px 0px 0px; color:#008080}
+#header h2 {width: 100%; margin:auto; color: #008080; font-size: 20px}
+#container {width: 100%; margin:auto}
+#mainHeader {background-color: #2d2d2d; color: #cccccc; padding: 10px;}
+#container h3 {color: #000;}
+#container #content {margin-top: 0px;}
+#typeForm{margin-top: 10px; margin-bottom: 10px;}
